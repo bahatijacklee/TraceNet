@@ -1,6 +1,4 @@
   
----
-
 # **TraceNet - IoT Device Tracking System**  
 **Secure & Transparent IoT Device Management Powered by Blockchain**  
 
@@ -35,8 +33,8 @@
 ## ⚡ Setup & Installation  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/bahatijacklee/IoT-Device-Tracking-System.git
-   cd IoT-Device-Tracking-System
+   git clone https://github.com/bahatijacklee/TraceNet.git
+   cd TraceNet
    ```
 2. Install dependencies:  
    ```sh
