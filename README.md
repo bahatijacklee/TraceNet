@@ -1,30 +1,72 @@
-# React + TypeScript + Vite
+  
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# **TraceNet - IoT Device Tracking System**  
+**Secure & Transparent IoT Device Management Powered by Blockchain**  
 
-Currently, two official plugins are available:
+![TraceNet Banner](your_banner_image_link_here)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Overview  
+**TraceNet** is a blockchain-powered platform for tracking and verifying IoT devices in real time. It enhances security, transparency, and data integrity using smart contracts and decentralized storage solutions.  
 
-## Expanding the ESLint configuration
+🔗 **Live Deployment**: [TraceNet Frontend](https://vercel.com/bahatijacklee8-gmailcoms-projects/io-t-chain-app)  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠 Features  
+- **Device Registration & Management** – Securely register, update, and track IoT devices.  
+- **Real-Time Data Logging** – Store and validate IoT-generated data on-chain & off-chain.  
+- **Access Control** – Role-based permissions for device owners, admins, and external services.  
+- **Rewards System** – Incentivizes accurate data submission using ERC-20 tokens.  
+- **Decentralized Storage** – Integrates IPFS/Helia for efficient data handling.  
 
-- Configure the top-level `parserOptions` property like this:
+## 🔗 Tech Stack  
+- **Frontend**: Next.js, Tailwind CSS, RainbowKit, Wagmi  
+- **Blockchain**: Solidity, Hardhat, Ethers.js  
+- **Storage**: IPFS/Helia, Ceramic  
+- **Backend**: Node.js, Express.js (Planned)  
+- **Smart Contracts**: Deployed on Ethereum Sepolia Testnet  
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 📜 Smart Contract Architecture  
+- `DeviceRegistry.sol` – Manages device lifecycle.  
+- `IoTDataLedger.sol` – Stores IoT metadata on-chain & data off-chain.  
+- `AccessManager.sol` – Handles role-based permissions.  
+- `TokenRewards.sol` – ERC-20-based incentives.  
+- `OracleIntegration.sol` – Uses Chainlink to validate external data.  
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## ⚡ Setup & Installation  
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/bahatijacklee/IoT-Device-Tracking-System.git
+   cd IoT-Device-Tracking-System
+   ```
+2. Install dependencies:  
+   ```sh
+   npm install
+   ```
+3. Run the development server:  
+   ```sh
+   npm run dev
+   ```
+4. Deploy smart contracts (Hardhat required):  
+   ```sh
+   npx hardhat run scripts/deploy.js --network sepolia
+   ```
+
+## 🛠 Contribution  
+Want to contribute? Follow these steps:  
+1. Fork the repository  
+2. Create a new branch (`git checkout -b feature-name`)  
+3. Commit changes (`git commit -m "Added feature X"`)  
+4. Push to the branch (`git push origin feature-name`)  
+5. Open a Pull Request  
+
+## 📜 License  
+This project is licensed under the MIT License.  
+
+## 👨‍💻 Developer  
+**Swiga Bahati**  
+📧 Email: [bahatijacklee8@gmail.com](mailto:bahatijacklee8@gmail.com)  
+🔗 Portfolio: [majorledger.vercel.app](https://majorledger.vercel.app)  
+🐙 GitHub: [bahatijacklee](https://github.com/bahatijacklee)  
+
+---
+
